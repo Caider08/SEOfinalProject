@@ -88,12 +88,22 @@ h2                       {
 h3                       {
                             font-family: Georgia, "Times New Roman", serif;
 }
+
+h2 a                     {
+                            color: #F7C331;
+}
+
+ol a                     {
+                            color: #F7C331;
+}
 li a                     {
                             color: #F7882F;
 }
+
 a                        {
                             color: #344873;
 }
+
 table a                  {
                             color: #F7882F;
 }
@@ -111,7 +121,7 @@ table          {
 th             {
     text-align: center;
     background-color: #0066ff;
-    color: white;
+    color: #F7C331;
 }
 
 table caption  {
