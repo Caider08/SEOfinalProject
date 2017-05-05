@@ -9,8 +9,8 @@
 }
 
 body                    {
-                            background-color: #4F6D93;
-                            background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+                            background-color: #FFFFFF;
+                            /* background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);*/
                             background-repeat: no-repeat;
                             color: #666666;
                             font-family: Arial, Helvetica, sans-serif;
@@ -133,21 +133,6 @@ header, main, nav, footer, figure, figcaption, aside, section, article {
 
 #desktop                 {
                             display: inline;
-}
-
-table                    {
-                            border: 1px solid #3399CC;
-                            width: 80%;
-                            border-spacing: 0;
-}
-
-th, td                   {
-                            padding: 5px;
-                            border: 1px solid #3399CC;
-}
-
-td                       {
-                            text-align: center;
 }
 
 .text                    {
