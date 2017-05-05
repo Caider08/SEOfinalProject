@@ -75,15 +75,21 @@ nav a                    {
                             text-decoration: none;
 
 }
-
-h2                       {
-                            color: #3399CC;
+h1                       {
+                            color: #6B7A8F;
                             font-family: Georgia, "Times New Roman", serif;
-                            text-shadow: 1px 1px #CCCCCC
+                            text-shadow: 3px 3px #CCCCCC
+}
+h2                       {
+                            color: #6B7A8F;
+                            font-family: Georgia, "Times New Roman", serif;
 }
 
 h3                       {
                             font-family: Georgia, "Times New Roman", serif;
+}
+li a                     {
+                            color: #F7882F;
 }
 a                        {
                             color: #344873;
