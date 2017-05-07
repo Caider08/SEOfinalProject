@@ -10,6 +10,9 @@
         }
         table          {
             border: 1;
+            width: 100%;
+            height: 100%;
+
 
         }
 
@@ -27,6 +30,10 @@
             background-color: #DCC7AA
 
         }
+
+        table a                  {
+                                    color: #F7882F;
+        }
         </style>
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -35,114 +42,116 @@
     </head>
     <body>
         <div id="wrapper">
-        <nav>
-            <bl>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Overview.html">Search Engine Overview</a></li>
-                <li><a href="SEOdev.html">Design and Development</a></li>
-                <li><a href="keywords.html">Keywords</a></li>
-                <li><a href="searchengines.html">Search Engine Tips</a></li>
-                <li><a href="SEOterms.html">SEO Terms</a></li>
-                <li><a href="conclusion.html">Conclusion</a></li>
-            </bl>
-        </nav>
-        <main>
-            <table border="1">
-                <caption>SEO Glossary</caption>
-                <tr>
-                    <th>Term</th>
-                    <th>Acronym</th>
-                    <th>Definition</th>
-                    <th>Link</th>
-                </tr>
-                <tr>
-                    <td>relevance</td>
-                    <td></td>
-                    <td>When a person performs an online search, the search engine returns only those results that are relevant to the searcher's query.</td>
-                    <td><a href="http://www.searchmetrics.com/glossary/relevance/">relevance</a>
-                </tr>
-                <tr>
-                    <td>popularity</td>
-                    <td></td>
-                    <td>Search engines typically assume that the more popular a site, page, or document, the more valuable the information it contains must be.</td>
-                    <td><a href="http://www.webopedia.com/TERM/L/link_popularity.html">popularity</a>
-                </tr>
-                <tr>
-                    <td>click-through-rate</td>
-                    <td>CTR</td>
-                    <td>The percentage of users who click on a given domain afer entering a search query.</td>
-                    <td><a href="http://willmarlow.com/click-through-rate-ctr/">click-through-rate</a>
-                </tr>
-                <tr>
-                    <td>Search Engine Results Page</td>
-                    <td>SERP</td>
-                    <td>The listing of web pages returned by a search engine after a search query is made.</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Search_engine_results_page">search engine results page</a>
-                </tr>
-                <tr>
-                    <td>organic results</td>
-                    <td></td>
-                    <td>The listing of web pages in the query results that are not paid advertisements.</td>
-                    <td><a href="https://en.wikipedia.org/wiki/Organic_search">organic results</a>
-                </tr>
-                <tr>
-                    <td>paid results</td>
-                    <td></td>
-                    <td>Advertisements on search engines that appear in the query results...typically near the top(first few results)</td>
-                    <td><a href="http://www.dummies.com/web-design-development/search-engine-optimization/the-difference-between-organic-and-paid-search-engine-results/">paid results</a>
-                </tr>
-                <tr>
-                    <td>robots.txt</td>
-                    <td></td>
-                    <td>Indicate whether certain user agents(web-crawling software) can or cannot crawl parts of a website.</td>
-                    <td><a href="https://moz.com/learn/seo/robotstxt">robots.txt</a>
-                </tr>
-                <tr>
-                    <td>keyword stuffing</td>
-                    <td></td>
-                    <td>Keyword stuffing is when someone attempts to manipulate their position in the search results by concentrating relevant keywords.</td>
-                    <td><a href="http://www.searchmetrics.com/glossary/keyword-stuffing/">keyword stuffing</a>
-                </tr>
-                <tr>
-                    <td>meta description tag</td>
-                    <td></td>
-                    <td>Meta descriptions are HTML attributes that provide concise summaries of webpages. They commonly appear underneath the blue clickable links in a search engine results page (SERP)</td>
-                    <td><a href="https://moz.com/learn/seo/meta-description">meta description tag</a>
-                </tr>
-                <tr>
-                    <td>keyword cannibalization</td>
-                    <td></td>
-                    <td>Happens when a website's information architecture rely on a single keyword or phrase on multiple places of the website.</td>
-                    <td><a href="http://www.oncrawl.com/what-is-keyword-cannibalization/">keyword cannibalization</a>
-                </tr>
-                <tr>
-                    <td>pinging</td>
-                    <td></td>
-                    <td>Pinging is a way for you to electronically let search engines and other websites know that you have new or revised content on your website.</td>
-                    <td><a href="https://www.bloggenesis.com/pinging-is-it-good-for-seo/">pinging</a>
-                </tr>
-                <tr>
-                    <td>DMCA takedown</td>
-                    <td>DMCA</td>
-                    <td>When content is removed from a website at the request of the owner of the content or the owner of the copyright of the content.</td>
-                    <td><a href="http://www.dmca.com/FAQ/What-is-a-DMCA-Takedown">pinging</a>
-                </tr>
-                <tr>
-                    <td>cloaking</td>
-                    <td></td>
-                    <td>SEO Technique in which the content presented to the search engine spider is different from that presented to the user's browser. </td>
-                    <td><a href="https://en.wikipedia.org/wiki/Cloaking">cloaking</a>
-                </tr>
-            </table>
-        </main>
-        <footer>
-            <h1>For more SEO!</h1>
-            <form method="post">
-                E-mail: <input type="text" name="email" id="email"><br>
-                <input type="submit" value="Keep me Updated!">
-            </form>
-                Copyright &copy; cbDev <br>
-                <a href="mailto:cbuchma3@stumail.jccc.edu">cbuchma3@stumail.jccc.edu</a>
-        </footer>
-        </div>
+            <header>
+                <h1>SEO Glossary</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Overview.html">Search Overview</a></li>
+                    <li><a href="SEOdev.html">Design and Development</a></li>
+                    <li><a href="keywords.html">Keywords</a></li>
+                    <li><a href="searchengines.html">Search Engine Tips</a></li>
+                    <li><a href="SEOterms.html">SEO Terms</a></li>
+                    <li><a href="conclusion.html">Conclusion</a></li>
+                </ul>
+            </nav>
+            <main>
+                <table border="1">
+                    <tr>
+                        <th>Term</th>
+                        <th>Acronym</th>
+                        <th>Definition</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>relevance</td>
+                        <td></td>
+                        <td>When a person performs an online search, the search engine returns only those results that are relevant to the searcher's query.</td>
+                        <td><a href="http://www.searchmetrics.com/glossary/relevance/">relevance</a>
+                    </tr>
+                    <tr>
+                        <td>popularity</td>
+                        <td></td>
+                        <td>Search engines typically assume that the more popular a site, page, or document, the more valuable the information it contains must be.</td>
+                        <td><a href="http://www.webopedia.com/TERM/L/link_popularity.html">popularity</a>
+                    </tr>
+                    <tr>
+                        <td>click-through-rate</td>
+                        <td>CTR</td>
+                        <td>The percentage of users who click on a given domain afer entering a search query.</td>
+                        <td><a href="http://willmarlow.com/click-through-rate-ctr/">click-through-rate</a>
+                    </tr>
+                    <tr>
+                        <td>Search Engine Results Page</td>
+                        <td>SERP</td>
+                        <td>The listing of web pages returned by a search engine after a search query is made.</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Search_engine_results_page">search engine results page</a>
+                    </tr>
+                    <tr>
+                        <td>organic results</td>
+                        <td></td>
+                        <td>The listing of web pages in the query results that are not paid advertisements.</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Organic_search">organic results</a>
+                    </tr>
+                    <tr>
+                        <td>paid results</td>
+                        <td></td>
+                        <td>Advertisements on search engines that appear in the query results...typically near the top(first few results)</td>
+                        <td><a href="http://www.dummies.com/web-design-development/search-engine-optimization/the-difference-between-organic-and-paid-search-engine-results/">paid results</a>
+                    </tr>
+                    <tr>
+                        <td>robots.txt</td>
+                        <td></td>
+                        <td>Indicate whether certain user agents(web-crawling software) can or cannot crawl parts of a website.</td>
+                        <td><a href="https://moz.com/learn/seo/robotstxt">robots.txt</a>
+                    </tr>
+                    <tr>
+                        <td>keyword stuffing</td>
+                        <td></td>
+                        <td>Keyword stuffing is when someone attempts to manipulate their position in the search results by concentrating relevant keywords.</td>
+                        <td><a href="http://www.searchmetrics.com/glossary/keyword-stuffing/">keyword stuffing</a>
+                    </tr>
+                    <tr>
+                        <td>meta description tag</td>
+                        <td></td>
+                        <td>Meta descriptions are HTML attributes that provide concise summaries of webpages. They commonly appear underneath the blue clickable links in a search engine results page (SERP)</td>
+                        <td><a href="https://moz.com/learn/seo/meta-description">meta description tag</a>
+                    </tr>
+                    <tr>
+                        <td>keyword cannibalization</td>
+                        <td></td>
+                        <td>Happens when a website's information architecture rely on a single keyword or phrase on multiple places of the website.</td>
+                        <td><a href="http://www.oncrawl.com/what-is-keyword-cannibalization/">keyword cannibalization</a>
+                    </tr>
+                    <tr>
+                        <td>pinging</td>
+                        <td></td>
+                        <td>Pinging is a way for you to electronically let search engines and other websites know that you have new or revised content on your website.</td>
+                        <td><a href="https://www.bloggenesis.com/pinging-is-it-good-for-seo/">pinging</a>
+                    </tr>
+                    <tr>
+                        <td>DMCA takedown</td>
+                        <td>DMCA</td>
+                        <td>When content is removed from a website at the request of the owner of the content or the owner of the copyright of the content.</td>
+                        <td><a href="http://www.dmca.com/FAQ/What-is-a-DMCA-Takedown">pinging</a>
+                    </tr>
+                    <tr>
+                        <td>cloaking</td>
+                        <td></td>
+                        <td>SEO Technique in which the content presented to the search engine spider is different from that presented to the user's browser. </td>
+                        <td><a href="https://en.wikipedia.org/wiki/Cloaking">cloaking</a>
+                    </tr>
+                </table>
+            </main>
+            <footer>
+                <h2 class="footertext">For more SEO!</h2>
+                <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                    <label>E-mail: <input type="text" name="email" id="email" required="required"></label><br>
+                    <input type="submit" value="Keep me Updated!">
+                </form>
+                    Copyright &copy; cbDev <br>
+                    <a href="mailto:cbuchma3@stumail.jccc.edu">cbuchma3@stumail.jccc.edu</a>
+            </footer>
+        </div> <!--End of Wrapper Div-->
     </body>

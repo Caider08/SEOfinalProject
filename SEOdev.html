@@ -11,62 +11,64 @@
     </head>
     <body>
         <div id="wrapper">
-        <nav>
-            <bl>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Overview.html">Search Engine Overview</a></li>
-                <li><a href="SEOdev.html">Design and Development</a></li>
-                <li><a href="keywords.html">Keywords</a></li>
-                <li><a href="searchengines.html">Search Engine Tips</a></li>
-                <li><a href="SEOterms.html">SEO Terms</a></li>
-                <li><a href="conclusion.html">Conclusion</a></li>
-            </bl>
-            </bl>
-        </nav>
-        <main>
-            <h1>Design and Development tips for Search-Engine Friendly Websites</h1>
-            <h2>Indexable Content</h2>
-            <p>Your most important content should be in HTML text format.  Flash Files, images, Java applets, and other non-text content
-                are often ignored or devalued by search engine crawlers.  Easiest way to ensure visibility to search engines is to place
-                content in HTML text on the page.</p>
-                <h3>More advanced methods:</h3>
-                <ol>
-                    <li>Assign images "alt attributes" in HTML to give search-engines a text description of the content</li>
-                    <li>Supplement search boxes with navigation and crawlable links</li>
-                    <li>Supplement Flash or Java plug-ins with text on the page</li>
-                    <li>Provide a written transscript for video and audio content if the words and phrases used are meant to be indexed by the engines.</li>
-                    <li>Use Google cache<a href="http://www.seo-browser.com/">SE0-browser.com</a> to see what elements of your content are visible and indexable</li>
-            <h2>Crawlable Link Structures</h2>
-            <p>A crawlable link structure allows the search-engine crawlers to browse the pathways of a website and is vital in helping them to find all of the pages
-                Great content with good keywords won't make any difference if the crawlers can't reach your pages in the first place</p>
-                <h3>Reasons why your pages may not be reachable by the web-crawlers</h3>
+            <header>
+                <h1>Design and Development tips for Search-Friendly Websites</h1>
+            </header>
+            <nav>
                 <ul>
-                    <li>Search crawlers generally will not attempt to <strong>submit forms</strong>, so any content or links that would be accessible via a form are
-                        invisible to the engines.</li>
-                    <li>Webcrawlers don't use <strong>search forms</strong></li>
-                    <li>Search engines either do not crawl or give very little weight to JavaScript links.  Use standard HTML links instead!</li>
-                    <li>Links pointing to pages blocked by the Meta Robots tag and the <a href="SEOterms.html">robots.txt file.</a></li>
-                    <li>Links in both frames and iframes present structural issues for the search-engines in terms of organization and following(still crawlable)</li>
-                    <li>Links in Flash, Java, and other plug-ins aren't crawlable</li>
-                    <li>Pages with hundreds of links on them are at risk of not getting all of those links crawled and indexed(restriction to cut down on spam)</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Overview.html">Search Engine Overview</a></li>
+                    <li><a href="SEOdev.html">Design and Development</a></li>
+                    <li><a href="keywords.html">Keywords</a></li>
+                    <li><a href="searchengines.html">Search Engine Tips</a></li>
+                    <li><a href="SEOterms.html">SEO Terms</a></li>
+                    <li><a href="conclusion.html">Conclusion</a></li>
                 </ul>
-            <p>Search engines ignore nearly all link attributes...with the exception of the <strong>rel="nofollow"</strong>.  The "nofollow" instructs search engines to not follow a link</p>
-            <h2>Defend against Scrapers!</h2>
-            <p>Other websites out there scrape for new content and republish it in their own sites.  Defend against this:</p>
-            <ul>
-                <li>After publishing new content, <a href="SEOterms.html">ping</a>the search engines.</li>
-                <li>Use absolute instead of relative link references for the linking between your site pages.  This will cause republishers of your content to link back to your site and therefore improve your search rankings</li>
-                <li>Consider <a href="SEOterms.html">DMCA takedowns</a>if the scraping gets out of control.</li>
-
-        </main>
-        <footer>
-            <h1>For more SEO!</h1>
-            <form method="post">
-                E-mail: <input type="text" name="email" id="email"><br>
-                <input type="submit" value="Keep me Updated!">
-            </form>
+            </nav>
+            <main>
+                <h2 class="bigheadingtext">Indexable Content</h2>
+                    <p>Your most important content should be in HTML text format.  Flash Files, images, Java applets, and other non-text content
+                        are often ignored or devalued by search engine crawlers.  Easiest way to ensure visibility to search engines is to place
+                        content in HTML text on the page.</p>
+                <h3 class="headingtext">More advanced methods:</h3>
+                    <ol>
+                        <li>Assign images "alt attributes" in HTML to give search-engines a text description of the content</li>
+                        <li>Supplement search boxes with navigation and crawlable links</li>
+                        <li>Supplement Flash or Java plug-ins with text on the page</li>
+                        <li>Provide a written transscript for video and audio content if the words and phrases used are meant to be indexed by the engines.</li>
+                        <li>Use Google cache<a href="http://www.seo-browser.com/">SE0-browser.com</a> to see what elements of your content are visible and indexable</li>
+                    </ol>
+                <h4 class="bigheadingtext">Crawlable Link Structures</h4>
+                    <p>A crawlable link structure allows the search-engine crawlers to browse the pathways of a website and is vital in helping them to find all of the pages
+                        Great content with good keywords won't make any difference if the crawlers can't reach your pages in the first place</p>
+                <h5 class="headingtext">Reasons why your pages may not be reachable by the web-crawlers:</h5>
+                    <ul>
+                        <li>Search crawlers generally will not attempt to <strong>submit forms</strong>, so any content or links that would be accessible via a form are
+                        invisible to the engines.</li>
+                        <li>Webcrawlers don't use <strong>search forms</strong></li>
+                        <li>Search engines either do not crawl or give very little weight to JavaScript links.  Use standard HTML links instead!</li>
+                        <li>Links pointing to pages blocked by the Meta Robots tag and the <a href="SEOterms.html">robots.txt file.</a></li>
+                        <li>Links in both frames and iframes present structural issues for the search-engines in terms of organization and following(still crawlable)</li>
+                        <li>Links in Flash, Java, and other plug-ins aren't crawlable</li>
+                        <li>Pages with hundreds of links on them are at risk of not getting all of those links crawled and indexed(restriction to cut down on spam)</li>
+                    </ul>
+                <p>Search engines ignore nearly all link attributes...with the exception of the <strong>rel="nofollow"</strong>.  The "nofollow" instructs search engines to not follow a link</p>
+                <h6 class="headingtext">Defend against Scrapers!</h6>
+                    <p>Other websites out there scrape for new content and republish it in their own sites.  Defend against this:</p>
+                    <ul>
+                        <li>After publishing new content, <a href="SEOterms.html">ping</a>the search engines.</li>
+                        <li>Use absolute instead of relative link references for the linking between your site pages.  This will cause republishers of your content to link back to your site and therefore improve your search rankings</li>
+                        <li>Consider <a href="SEOterms.html">DMCA takedowns</a>if the scraping gets out of control.</li>
+                    </ul>
+            </main>
+            <footer>
+                <h8 class="footertext">For more SEO!</h8>
+                <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                    <label>E-mail: <input type="text" name="email" id="email" required="required"></label><br>
+                    <input type="submit" value="Keep me Updated!">
+                </form>
                 Copyright &copy; cbDev <br>
                 <a href="mailto:cbuchma3@stumail.jccc.edu">cbuchma3@stumail.jccc.edu</a>
-        </footer>
-        </div>
+            </footer>
+        </div><!--End of Wrapper div-->
     </body>
