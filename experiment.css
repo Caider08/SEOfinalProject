@@ -5,6 +5,7 @@
                             min-width: 960px;
                             max-width: 2048px;
 
+
 }
 
 body                    {
@@ -35,7 +36,7 @@ main                    {
                             padding-bottom: 0px;
                             padding-left: 0px;
                             display: block;
-                            background-color: #FFFFFF;
+                            background-color: #DCC7AA;
                             height: 100%;
 
 }
@@ -126,7 +127,7 @@ main ul                  {
 
 footer                   {
                             margin-left: 200px;
-                            background-color: #FFFFFF;
+                            background-color: #DCC7AA;
                             font-style: italic;
                             font-size: 75%;
                             text-align: center;
@@ -135,17 +136,9 @@ footer                   {
 }
 
 
-header, main, nav, footer, figure, figcaption, aside, section, article {
+header, main, nav, footer, figure, figcaption, aside, {
 
                 display: block;
-}
-
-#mobile                  {
-                            display: none;
-}
-
-#desktop                 {
-                            display: inline;
 }
 
 .headingtext             {
@@ -172,26 +165,29 @@ header, main, nav, footer, figure, figcaption, aside, section, article {
 tr:nth-of-type(odd)      {
                             background-color: #F5FAFC
 }
-#vennDwrapper            {
-                            margin: auto;
-                            width: 80%;
-                            background-color: #ffffff;
-                            min-width: 960px;
-                            max-width: 2048px;
+#footerpusher           {
+                            margin: 0;
+                            width: 740px;
+                            background-color: #DCC7AA;
                             border: 1px solid #000;
+                            height: 900px;
+                            padding: 0px;
 
 
 }
 #vennD div               {
-                            height: 340px;
-                            width: 340px;
-                            border-radius: 170px;
+                            height: 380px;
+                            width: 380px;
+                            border-radius: 190px;
                             border: 1px solid #000;
                             float: left;
                             opacity: .6;
-                            margin-top: 25px;
+                            margin-top: 50px;
                             font-size: 12px;
                             color: #FFFFFF;
+                            display: block;
+                            overflow: visible;
+
 }
 
 #vennD div:nth-child(1)  {
@@ -208,26 +204,26 @@ tr:nth-of-type(odd)      {
                             background-color: #F7C331;
                             color: #4d2e00;
                             padding-left: 30px;
-                            margin-left: -75px;
+                            margin-left: -90px;
                             text-align: center;
 }
 
 #vennD #overlap          {
                             border: 1px solid #000;
-                            height: 170px;
-                            width: 75px;
-                            left: -370px;
-                            top: 80px;
+                            height: 220px;
+                            width: 80px;
+                            margin-left: -410px;
+                            top: 100px;
                             color: #4d2e00;
                             position: relative;
                             text-align: center;
                             opacity: 1;
-                            z-index: 10;
-                            font-size: 12px;
+                            padding-top: 50px;
+                            font-size: 10px;
 }
 
 
-@media only screen and (max-width: 64em)  {
+@media only screen and (max-width: 1024px)  {
 
                 body                        { margin: 0; background-color: #FFFFFF; }
                 #wrapper                    { min-width: 0; width: auto; box-shadow: none; }
@@ -235,25 +231,23 @@ tr:nth-of-type(odd)      {
                 nav                         { float: none; width: auto; text-align: center; padding: 0.5em; }
                 nav li                      { display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-right: 0.75em; padding-left: 0.75em; }
                 footer                      { margin-left: 0; }
-                #vennD div:nth-child(2)     { top: 0px; margin-top: -140px; padding-left: 30px; text-align: center; }
-                #vennD #overlap             { top: -460px; left: 10px; width: 340px; height 75px; text-align: bottom; padding-top: 40px;}
-                #vennD div                  { height: 400px; }
+                #vennD div:nth-child(2)     { margin-top: 50px; padding-left: 30px; text-align: center; }
+                #vennD #overlap             { margin-top: 40px; left: 40px; width: 80px; height 220px; text-align: bottom; padding-top: 40px;}
+                #vennD div                  { width: 340px; }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 667px) {
                 header     { padding-top: 1em; }
                 main       { font-size: 90%; padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 1em; padding-right: 1em; }
                 h1         { font-size: 1.5em; }
                 nav        { padding: 0; }
                 nav li     { display: block; margin: 0; border-bottom: 2px solid #330000; }
                 nav a      { display: block; }
-                #mobile    { display: inline; }
-                #desktop   { display: none; }
                 body       { margin: 0; background-color: #FFFFFF; }
                 #wrapper   { min-width: 0; width: auto; box-shadow: none; }
                 footer     { margin-left: 0; }
-                #vennD div:nth-child(2)     { top: 0px; margin-top: -140px; padding-left: 30px; text-align: center; }
-                #vennD #overlap             { top: -460px; left: 10px; width: 340px; height 75px; text-align: bottom; padding-top: 40px;}
-                #vennD div                  { height: 400px; }
+                #vennD div:nth-child(2)     { margin-left: 0px; margin-top: -150px; text-align: center; padding-top: 150px; }
+                #vennD #overlap             { top: -200px; left: 75px; width: 300px; padding-top: 70px;}
+                #vennD div                  { width: 340px; margin-top: 0px; height: 380px; }
 
 }
