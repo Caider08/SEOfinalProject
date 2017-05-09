@@ -1,7 +1,7 @@
 #wrapper                {
                             margin: auto;
                             width: 90%;
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             min-width: 960px;
                             max-width: 2048px;
 
@@ -9,7 +9,7 @@
 }
 
 body                    {
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             /* background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);*/
                             background-repeat: no-repeat;
                             color: #666666;
@@ -25,7 +25,7 @@ header                  {
                             height: 60px;
                             padding-top: 15px;
                             text-align: center;
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             color: #FFFFFF;
 }
 
@@ -36,7 +36,7 @@ main                    {
                             padding-bottom: 0px;
                             padding-left: 0px;
                             display: block;
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             height: 100%;
 
 }
@@ -127,7 +127,7 @@ main ul                  {
 
 footer                   {
                             margin-left: 200px;
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             font-style: italic;
                             font-size: 75%;
                             text-align: center;
@@ -168,7 +168,7 @@ tr:nth-of-type(odd)      {
 #footerpusher           {
                             margin: 0;
                             width: 740px;
-                            background-color: #DCC7AA;
+                            background-color: #e9dbc9;
                             border: 1px solid #000;
                             height: 900px;
                             padding: 0px;
