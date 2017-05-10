@@ -169,17 +169,14 @@ tr:nth-of-type(odd)      {
                             margin: 0;
                             width: 740px;
                             background-color: #e9dbc9;
-                            border: 1px solid #000;
-                            height: 900px;
+                            height: 700px;
                             padding: 0px;
-
 
 }
 #vennD div               {
                             height: 380px;
                             width: 380px;
                             border-radius: 190px;
-                            border: 1px solid #000;
                             float: left;
                             opacity: .6;
                             margin-top: 50px;
@@ -209,7 +206,6 @@ tr:nth-of-type(odd)      {
 }
 
 #vennD #overlap          {
-                            border: 1px solid #000;
                             height: 220px;
                             width: 80px;
                             margin-left: -410px;
@@ -246,7 +242,7 @@ tr:nth-of-type(odd)      {
                 body       { margin: 0; background-color: #FFFFFF; }
                 #wrapper   { min-width: 0; width: auto; box-shadow: none; }
                 footer     { margin-left: 0; }
-                #vennD div:nth-child(2)     { margin-left: 0px; margin-top: -150px; text-align: center; padding-top: 150px; }
+                #vennD div:nth-child(2)     { margin-left: 0px; margin-top: -150px; text-align: bottom; padding-top: 150px; height: 250px; }
                 #vennD #overlap             { top: -200px; left: 75px; width: 300px; padding-top: 70px;}
                 #vennD div                  { width: 340px; margin-top: 0px; height: 380px; }
 
