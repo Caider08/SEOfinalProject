@@ -1,19 +1,22 @@
 #wrapper                {
                             margin: auto;
                             width: 90%;
-                            background-color: #e9dbc9;
+                            background-color: #FFFFFF;
                             min-width: 960px;
                             max-width: 2048px;
+
+
 }
 
 body                    {
-                            background-color: #e9dbc9;
+                            background-color: #FFFFFF;
                             /* background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);*/
                             background-repeat: no-repeat;
                             color: #666666;
                             font-family: Arial, Helvetica, sans-serif;
                             margin: 0;
                             padding: 0;
+
 }
 
 header                  {
@@ -33,8 +36,9 @@ main                    {
                             padding-bottom: 0px;
                             padding-left: 0px;
                             display: block;
-                            background-color: #e9dbc9;
+                            background-color: #FFFFFF;
                             height: 100%;
+
 }
 
 header h1               {
@@ -49,6 +53,7 @@ nav                     {
                             padding: 20px;
                             font-weight: bold;
                             height: 100%;
+                            display: none;
 }
 
 nav ul                   {
@@ -56,6 +61,7 @@ nav ul                   {
                             margin: 0;
                             padding-left: 0;
                             font-size: 1.2em;
+                            display: none;
 }
 
 nav a:link               {
@@ -72,7 +78,9 @@ nav a:hover              {
 
 nav a                    {
                             text-decoration: none;
+
 }
+
 
 h1                       {
                             color: #6B7A8F;
@@ -110,9 +118,10 @@ a                        {
                             color: #344873;
 }
 
+
 footer                   {
                             margin-left: 200px;
-                            background-color: #e9dbc9;
+                            background-color: #FFFFFF;
                             font-style: italic;
                             font-size: 75%;
                             text-align: center;
@@ -153,7 +162,7 @@ tr:nth-of-type(odd)      {
 #footerpusher           {
                             margin: 0;
                             width: 740px;
-                            background-color: #e9dbc9;
+                            background-color: #FFFFFF;
                             height: 700px;
                             padding: 0px;
 
@@ -224,12 +233,9 @@ tr:nth-of-type(odd)      {
                             height: 75px;
                             width: 75px;
                             display: block;
-
                             opacity: 0.5;
                             background-color: #e9dbc9;
                             margin-right: 25px;
-
-
 }
 
 
