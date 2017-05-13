@@ -8,7 +8,6 @@
 
 body                    {
                             background-color: #e9dbc9;
-                            /* background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);*/
                             background-repeat: no-repeat;
                             color: #666666;
                             font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +87,7 @@ h3                       {
                             font-family: Georgia, "Times New Roman", serif;
 }
 
-h5                       {
+h4, h5, h6, h7, h8       {
                             color: #6B7A8F;
                             font-family: Georgia, "Times New Roman", serif;
                             font-size: 1.75em;
@@ -96,6 +95,10 @@ h5                       {
 }
 
 h2 a                     {
+                            color: #F7C331;
+}
+
+h5 a                     {
                             color: #F7C331;
 }
 
@@ -121,9 +124,9 @@ footer                   {
 }
 
 
-header, main, nav, footer, figure, figcaption, aside, {
+header, main, nav, footer {
 
-                display: block;
+                            display: block;
 }
 
 .headingtext             {
@@ -150,7 +153,7 @@ header, main, nav, footer, figure, figcaption, aside, {
 tr:nth-of-type(odd)      {
                             background-color: #F5FAFC
 }
-#footerpusher           {
+#footerpusher            {
                             margin: 0;
                             width: 740px;
                             background-color: #e9dbc9;
@@ -224,14 +227,10 @@ tr:nth-of-type(odd)      {
                             height: 75px;
                             width: 75px;
                             display: block;
-
                             opacity: 0.5;
                             background-color: #e9dbc9;
                             margin-right: 25px;
-
-
 }
-
 
 @media only screen and (max-width: 1024px)  {
 
@@ -242,21 +241,21 @@ tr:nth-of-type(odd)      {
                 nav li                      { display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-right: 0.75em; padding-left: 0.75em; }
                 footer                      { margin-left: 0; }
                 #vennD div:nth-child(2)     { margin-top: 50px; padding-left: 30px; text-align: center; }
-                #vennD #overlap             { margin-top: 40px; left: 40px; width: 80px; height 220px; text-align: bottom; padding-top: 40px;}
+                #vennD #overlap             { margin-top: 40px; left: 40px; width: 80px; height: 220px; padding-top: 40px;}
                 #vennD div                  { width: 340px; }
 }
 
-@media only screen and (max-width: 667px) {
-                header     { padding-top: 1em; }
-                main       { font-size: 90%; padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 1em; padding-right: 1em; }
-                h1         { font-size: 1.5em; }
-                nav        { padding: 0; }
-                nav li     { display: block; margin: 0; border-bottom: 2px solid #330000; }
-                nav a      { display: block; }
-                body       { margin: 0; background-color: #e9dbc9; }
-                #wrapper   { min-width: 0; width: auto; box-shadow: none; }
-                footer     { margin-left: 0; }
-                #vennD div:nth-child(2)     { margin-left: 0px; margin-top: -150px; text-align: bottom; padding-top: 150px; height: 250px; }
+@media only screen and (max-width: 667px)   {
+                header                      { padding-top: 1em; }
+                main                        { font-size: 90%; padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 1em; padding-right: 1em; }
+                h1                          { font-size: 1.5em; }
+                nav                         { padding: 0; }
+                nav li                      { display: block; margin: 0; border-bottom: 2px solid #330000; }
+                nav a                       { display: block; }
+                body                        { margin: 0; background-color: #e9dbc9; }
+                #wrapper                    { min-width: 0; width: auto; box-shadow: none; }
+                footer                      { margin-left: 0; }
+                #vennD div:nth-child(2)     { margin-left: 0px; margin-top: -150px; padding-top: 150px; height: 250px; }
                 #vennD #overlap             { top: -200px; left: 75px; width: 300px; padding-top: 70px;}
                 #vennD div                  { width: 340px; margin-top: 0px; height: 380px; }
 
